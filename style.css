@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-*body {
+body {
     font-family: 'Roboto';
 }
 .side-navbar {
@@ -37,6 +37,8 @@
     display: inline-block;
     height: 100vh;
     vertical-align: top;
+    padding: 0px 50px 0px 0px;
+    border-right: 1px solid #858585;
 }
 .settings-bar li {
     list-style: none;
@@ -48,8 +50,12 @@
 .settings-bar nav h4 {
     display: inline-block;
 }
+.settings-bar-top img {
+    width: 14.82px;
+    height: 24px;
+}
 .settings-bar-top {
-    margin-left: 30px;
+    margin-left: 20px;
     margin-top: 10%;
 }
 .settings-bar-top h3 {
@@ -62,8 +68,116 @@
 .settings-bar  a {
     text-decoration: none;
     color: #1C1C1C;
-    font-size: 20px;
+    font-size: 18px;
 }
 .settings-bar h4 {
-    text-align: right;
+    margin-left: 30px;
+}
+.edit-profile-nav {
+    color: #1C1C1C;
+}
+.setting-bar-icon {
+    width: 24px;
+    height: 24px;
+}
+ul li h4 {
+    color: #858585;
+    font-size: 24px;
+}
+.setting-bar-bottom {
+    margin-left: 45px;
+}
+.setting-bar-bottom li {
+    margin-top: 30%;
+}
+.profile-edit-menu {
+    display: inline-block;
+    vertical-align: top;
+}
+.profile-edit-menu {
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.profile-edit-menu h2 {
+    font-size: 22px;
+    color: #000000;
+    display: inline-block;
+}
+.profile-photo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 340px;
+}
+input {
+    border-radius: 5px;
+    border: 1px solid #858585;
+}
+input, label {
+    display: block;
+}
+label {
+    color: #1C1C1C;
+    font-weight: 600;
+    font-size: 18px;
+}
+.small-input {
+    width: 250px;
+    height: 40px;
+}
+.inputs {
+    margin-top: 5%;
+}
+::placeholder {
+    padding: 0px 0px 0px 15px;
+    color: #858585;
+}
+.right-input-wrapper {
+    display: inline-block;
+    margin-left: 50px;
+}
+.left-input-wrapper {
+    display: inline-block;
+}
+.long-input {
+    width: 555px;
+    height: 40px;
+}
+.buttons-wrapper {
+    margin-top: 25px;
+}
+.cancel-button {
+    background-color: #FFFFFF;
+    padding: 8px 25px;
+    border-radius: 4px;
+    border: 1px solid #FF7008;
+    color: #FF7008;
+    cursor: pointer;
+}
+.save-button {
+    background-color: #FF7008;
+    padding: 8px 32px;
+    margin-left: 30px;
+    border-radius: 6px;
+    border: 1px solid #FF7008;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.save-button:hover {
+    background-color: #FFFFFF;
+    color: #FF7008;
+    transition: 0.2s;
+}
+.cancel-button:hover {
+    background-color: #FF7008;
+    color: #FFFFFF;
+    transition: 0.2s;
+}
+.top-right-side {
+    display: inline-block;
+    vertical-align: 30px;
+    margin-left: 150px;
+}
+.top-right-profile-picture {
+    width: 30px;
+    height: 32px;
 }

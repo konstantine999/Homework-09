@@ -58,45 +58,97 @@
         <nav>
             <div class="settings-bar-top">
                 <a href="#">
-                    <img src="./Photos/arrow-icon.png" alt="">
+                    <img src="./Photos/arrow-icon.png" alt="Arrow">
                     <h3>
                         settings
                     </h3>
                 </a>
             </div>
-            <ul>
-                <li>
-                    <a href="#">
-                        <img src="./Photos/pencil-icon.png" alt="Pencil">
-                        <h4>Edit Profile</h4>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="./Photos/bell-icon-setting.png" alt="Bell Icon">
-                        <h4>Notification</h4>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="./Photos/security-icon.png" alt="Security">
-                        <h4>Security</h4>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="./Photos/setting-icon-2.png" alt="Setting Icon">
-                        <h4>Appearance</h4>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="./Photos/help-icon.png" alt="Help Icon">
-                        <h4>Help</h4>
-                    </a>
-                </li>
-            </ul>
+            <div class="setting-bar-bottom">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="./Photos/pencil-icon.png" class="setting-bar-icon" alt="Pencil">
+                            <h4 class="edit-profile-nav">Edit Profile</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./Photos/bell-icon-setting.png" class="setting-bar-icon" alt="Bell Icon">
+                            <h4>Notification</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./Photos/security-icon.png" class="setting-bar-icon" alt="Security">
+                            <h4>Security</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./Photos/setting-icon-2.png" class="setting-bar-icon" alt="Setting Icon">
+                            <h4>Appearance</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./Photos/help-icon.png" class="setting-bar-icon" alt="Help Icon">
+                            <h4>Help</h4>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </nav>
+    </div>
+    <div class="profile-edit-menu">
+        <h2>Edit profile</h2>
+        <img src="./Photos/profile-photo.png" class="profile-photo" alt="profile photo">
+        <div class="top-right-side">
+            <img src="./Photos/bell-icon-setting.png" alt="Bell">
+            <img src="./Photos/profile-photo.png" class="top-right-profile-picture" alt="Profile Photo">
+        </div>
+        <form action="">
+            <div class="inputs">
+                <div class="left-input-wrapper">
+                    <label for="first-name">Firstname</label>
+                    <input type="text" id="first-name" name="first-name" placeholder="Mehrab" class="small-input">
+                </div>
+                <div class="right-input-wrapper">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last-name" placeholder="Bozorgi" class="small-input">
+                </div>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="mail" placeholder="Mehrabbozorgi.business@gmail.com" class="long-input">
+            </div>
+            <div>
+                <label for="adress">Adress</label>
+                <input type="text" id="adress" name="adress" placeholder="33062 Zboncak isle" class="long-input">
+            </div>
+            <div>
+                <label for="contact-number">Contact-Number</label>
+                <input type="number" id="contact-number" name="contact-number" placeholder="58077.79" class="long-input">
+            </div>
+            <div>
+                <div class="left-input-wrapper">
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="city" placeholder="Mehrab" class="small-input">
+                </div>
+                <div class="right-input-wrapper">
+                    <label for="state">State</label>
+                    <input type="text" id="state" name="state" placeholder="Bozorgi" class="small-input">
+                </div>
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="sbdfbnd65sfdvb s" class="long-input">
+            </div>
+        </form>
+        <div class="buttons-wrapper">
+            <button class="cancel-button">Cancel</button>
+            <button class="save-button">Save</button>
+        </div>
     </div>
 </body>
 </html>
